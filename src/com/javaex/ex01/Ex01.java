@@ -28,7 +28,7 @@ public class Ex01 {
 	    int var09 = 2147483647;
 		
 		
-	    
+	    System.out.println("깃허브 테스트 문장");
 	    
 	    
 		

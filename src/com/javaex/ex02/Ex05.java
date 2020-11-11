@@ -35,6 +35,8 @@ public class Ex05 {
 		
 		sc.close();
 		
+		System.out.println("깃허브 테스트");
+		
 	}
 
 }
