@@ -26,7 +26,7 @@ public class Ex08 {
 		}
 		
 		
-		System.out.println(0/2);
+		
 		sc.close();
 	}
 
