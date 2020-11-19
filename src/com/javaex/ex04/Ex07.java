@@ -1,43 +1,34 @@
 package com.javaex.ex04;
 
+import java.util.Scanner;
+
 public class Ex07 {
 
 	public static void main(String[] args) {
-			int i;
-			int j;
+				int i;
+				int j;
+				
+			Scanner sc = new Scanner(System.in);
+				int N = sc.nextInt();
 			
-	/*		
-		for(i=0;i<6;i++) {
-			for(j=0;j<=i;j++) {
-				System.out.print("*");
-			}System.out.println();
-		}
-		*/
-
-			for(i=5;i>=1;i--) {
-				for(j=0;j<i;j++) {
+			for(i=1;i<=5;i++) {
+				for(j=i*2; i<j;j--) {
 					System.out.print("*");
-					
 				}System.out.println();
-		}
+				
+			}
+		
 			
 			
 			
-			
-			
-			/*  i=0 *=5
-			 *  i=1 *=4
-			 *  i=2 *=3
-			 *  i=3 *=2
-			 *  i=4 *=1
-			 *  i=5 *=0;
-			 *  
-			 *  
-			 *  
-			 * */
-			
-			
-			
+		/*
+		for()
+		
+			줄 수만큼 별찍으세요
+		
+		
+		
+		*/
 		
 		
 		
